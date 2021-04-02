@@ -12,6 +12,8 @@ html {
 }
 
 /* navHeader */
+.logoImg{height: 100px;
+  padding: 0 0 0 3rem;}
 #navHeader {
   padding: 0.2em 2rem;
   background-color: #001f3f;
@@ -181,3 +183,6 @@ nav.black {
 #products .btn-lg{margin: 4rem auto;}
 
 /* END- PRODUCTS */
+
+
+/* ----------------------------- */
