@@ -146,6 +146,8 @@ nav.black {
 /* end - HERO */
 
 /* SERVICES */
+
+/* box-service */
 .service-item{
   float: left;
   background-color: #000;
@@ -158,13 +160,17 @@ nav.black {
 .services .col-2:hover{
   background-color: #ccc;
 }
-/* end- SERVICES */
+/* END - box-service */
+
 
 /* #printing */
 .box{
-  
+  padding: 0 5rem !important;
 }
-#printing{
-  background-image:url(images/prints.jpg);
-}
+.box1{padding: 4rem 0;}
+.box2{padding: 5rem 2rem 1rem;}
+
 /* end -  #printing */
+
+
+/* end- SERVICES */
