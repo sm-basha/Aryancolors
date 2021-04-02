@@ -168,9 +168,16 @@ nav.black {
   padding: 0 5rem !important;
 }
 .box1{padding: 4rem 0;}
+.box1-btn{margin-top: 3rem;}
 .box2{padding: 5rem 2rem 1rem;}
-
+.box2 h2{margin-bottom: 1rem;}
 /* end -  #printing */
 
 
 /* end- SERVICES */
+
+
+/* PRODUCTS */
+#products .btn-lg{margin: 4rem auto;}
+
+/* END- PRODUCTS */
