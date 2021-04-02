@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* navHeader */
+#navHeader {
+  padding: 0.2em 2rem;
+  background-color: #001f3f;
+  color: #fff;
+}
+
+#navHeader .icon {
+  display: inline-block;
+  border: 1px solid #46597d;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 15px 10px;
+}
+
+#navHeader a {
+  color: #fff;
+}
+
+#navHeader img,
+#features img {
+  height: 20px;
+}
+
+/* END - navHeader */
+
+/* navbar */
+.nav-item {
+  padding: 0 2rem;
+}
+
+.navbar a {
+  color: #000;
+  font-weight: 700;
+}
+
+.navbar .dropdown-item {
+  color: #000;
+}
+
+.navbar-toggler-icon {
+  background-image: url(images/navbar-toggle.png);
+}
+
+.navbar {
+  z-index: 10;
+  width: 100%;
+  padding: 1rem;
+}
+
+.dropdown-menu:li {
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.dropdown-item:hover {
+  background-color: #001f3f;
+  color: #000;
+}
+
+.dropdown-item {
+  padding: 0.25rem 0.5rem;
+}
+
+nav.black {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar a.white {
+  color: #fff;
+  font-weight: 700;
+}
+
+/* End- navbar */
+
+/* SIDE BRAND */
+
+.soc {
+  color: rgb(197 118 118);
+  position: fixed;
+  top: 50%;
+  right: -55px;
+
+  z-index: 10;
+  border-radius: 15px 15px 0 0;
+}
+
+.soc li {
+  list-style: none;
+}
+
+.soc a {
+  display: block;
+  text-align: center;
+  padding: 1px;
+  transition: all 0.3s ease;
+}
+.verticalText {
+  transform: rotate(-90deg);
+  padding: 20px;
+  margin: 20px;
+}
+
+/* end- SIDE BRAND */
+
+/* HERO */
+#hero{
+  /* padding-top: 50px; */
+}
+.caro1{
+  background: linear-gradient(to right top, #41b6dc, #00c9d1, #39d7ad, #8dde7e, #dbdd56)
+}
+.caro2{
+  background-image: linear-gradient(to right top, #dd9556, #ec6151, #e90070, #c100a6, #2526e1);}
+.caro3{
+  background-image: linear-gradient(to right top, #2526e1, #c100a6, #e90070, #ec6151, #dd9556);
+}
+.hero-img img{
+  padding: 100px;
+  width: auto;
+  height: 100%;
+}
+.carousel-item .para{
+  top: 300px;
+}
+
+
+
+/* end - HERO */
+
+/* SERVICES */
+.service-item{
+  float: left;
+  background-color: #000;
+  color: #fff;
+}
+.services .col-2{padding: 2.6rem 0;
+  /* margin: 50px auto; */
+  text-align: center;
+}
+.services .col-2:hover{
+  background-color: #ccc;
+}
+/* end- SERVICES */
+
+/* #printing */
+.box{
+  
+}
+#printing{
+  background-image:url(images/prints.jpg);
+}
+/* end -  #printing */
