@@ -127,8 +127,7 @@ nav.black {
   /* padding-top: 50px; */
 }
 .caro1{
-  background: linear-gradient(to right top, #41b6dc, #00c9d1, #39d7ad, #8dde7e, #dbdd56)
-}
+  background-image: linear-gradient(to right top, #f20beb, #c536e6, #9944db, #6e49cc, #4549b8);}
 .caro2{
   background-image: linear-gradient(to right top, #dd9556, #ec6151, #e90070, #c100a6, #2526e1);}
 .caro3{
