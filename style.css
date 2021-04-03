@@ -60,7 +60,7 @@ html {
 .navbar {
   z-index: 10;
   width: 100%;
-  /* padding: 1rem; */
+  position: absolute;
 }
 
 .dropdown-menu:li {
@@ -132,16 +132,16 @@ nav.black {
   background-image: linear-gradient(to right top, #2526e1, #c100a6, #e90070, #ec6151, #dd9556);
 }
 .hero-img img{
-  padding: 100px;
+  padding: 200px 65px 100px 65px;
   width: auto;
   height: 100%;
 }
 .carousel-item .para{
   top: 300px;
 }
-.para{padding-left: 70px; color: #fff;}
+.para{ color: #fff;}
 
-.para h2{font-size: 70px;}
+.para h2{font-size: 60px;}
 
 
 /* end - HERO */
