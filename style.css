@@ -165,12 +165,14 @@ nav.black {
 }
 /* END - box-service */
 
+/* #copy */
+#copy, #no-design{background-color: #F3F6FB;}
 
 /* #printing */
-.box{
+/* .box{
   padding: 0 5rem !important;
-}
-.box1{padding: 4rem 0;}
+} */
+.box1{padding: 4rem 5rem;}
 .box1-btn{margin-top: 3rem;}
 .box2{padding: 5rem 2rem 1rem;}
 .box2 h2, #products h2{margin-bottom: 1rem; font-size: 3rem;}
