@@ -12,7 +12,7 @@ html {
 }
 
 /* navHeader */
-.logoImg{height: 100px;
+.logoImg{height: 90px;
   padding: 0 0 0 3rem;}
 #navHeader {
   padding: 0.2em 2rem;
@@ -60,7 +60,7 @@ html {
 .navbar {
   z-index: 10;
   width: 100%;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .dropdown-menu:li {
