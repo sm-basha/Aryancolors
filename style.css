@@ -123,9 +123,7 @@ nav.black {
 /* end- SIDE BRAND */
 
 /* HERO */
-#hero{
-  /* padding-top: 50px; */
-}
+
 .caro1{
   background-image: linear-gradient(to right top, #f20beb, #c536e6, #9944db, #6e49cc, #4549b8);}
 .caro2{
@@ -141,9 +139,9 @@ nav.black {
 .carousel-item .para{
   top: 300px;
 }
-.para{padding-left: 50px; color: #fff;}
+.para{padding-left: 70px; color: #fff;}
 
-.para h2{font-size: 60px;}
+.para h2{font-size: 70px;}
 
 
 /* end - HERO */
