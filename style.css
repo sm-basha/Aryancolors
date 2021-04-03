@@ -264,3 +264,25 @@ margin-right: 5px;
   margin-bottom: 10px;
 }
 }
+
+
+
+
+
+
+
+
+
+
+.foot-icon img{height: 30px;padding-top: 0px;}
+.foot-icon {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+padding-top: 12px;
+  display: inline-block;
+  border: 2px solid #A91813;
+  border-radius: 50%;
+  margin: 0.3rem;
+}
+.row hr{border-top: 0.2px solid #fff;}
