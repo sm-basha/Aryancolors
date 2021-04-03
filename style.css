@@ -148,6 +148,8 @@ nav.black {
 
 /* end - HERO */
 
+
+
 /* SERVICES */
 
 /* box-service */
@@ -156,7 +158,7 @@ nav.black {
   background-color: #000;
   color: #fff;
 }
-.services .col-2{padding: 2.6rem 0;
+.services .col-2{padding: 2.4rem 0;
   /* margin: 50px auto; */
   text-align: center;
 }
@@ -173,7 +175,9 @@ nav.black {
 .box1{padding: 4rem 0;}
 .box1-btn{margin-top: 3rem;}
 .box2{padding: 5rem 2rem 1rem;}
-.box2 h2{margin-bottom: 1rem;}
+.box2 h2, #products h2{margin-bottom: 1rem; font-size: 3rem;}
+.box2 p, .box2 ol, #products p{font-size: 1.2rem;}
+.box2 ol{padding-left: 30px;}
 /* end -  #printing */
 
 
