@@ -338,8 +338,12 @@ padding-top: 12px;
     padding: 150px 10px 10px 10px;
     height: 80%;
   }
-
-  .carousel-item .para{top: 0;padding-left: 70px;}
-  .carousel-item h2{font-size: 2.2rem; margin-bottom: 4rem;}
-  .carousel-item h3{font-size: 1.4rem;}
+  .row{margin: auto 0;}
+  .container-fluid{padding:  0 !important;}
+  .carousel-item .para{top: 0;padding-left: 70px;}  
+  .box1{padding-top: 3rem !important;}
+  .carousel-item h2, .box1 h2, .box2 h2, #products h2{font-size: 2.2rem; margin-bottom: 2rem;}
+  .carousel-item h2{margin-bottom: 4rem;}
+  .carousel-item h3, .box1 h5{font-size: 1.4rem;}
+  .services h5, .box1 p, .box1 ol, #products p{font-size: 1rem;}
 }
