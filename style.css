@@ -329,17 +329,6 @@ form {
   position: relative;
 }
 .addbox{padding: 0.5rem 0;}
-.icon {
-  position: absolute;
-  margin: 35px 0 0 10px;
-}
-
-input[type='text'],
-input[type='email'],
-input[type='tel'],
-textarea {
-  padding-left: 30px !important;
-}
 
 .contact-form .input-block {
   background-color: transparent;
@@ -395,7 +384,6 @@ textarea {
   position: relative;
   z-index: 2;
   font-size: 18px;
-  color: #f3f3f3;
 }
 
 .contact-form .input-block .form-control:focus label {
@@ -453,7 +441,8 @@ textarea {
   #navHeader, .navbar{text-align: center;}
   #navHeader img{height: 17px;}
   #navHeader .icon{padding: 8px 10px;}
-  #navHeader span, #navHeader {font-size: 0.8rem;}
+  #navHeader span, #navHeader,
+  .contact-form .input-block label {font-size: 0.8rem;}
   .hero-img img{
     padding: 120px 10px 10px 10px;
     height: 80%;
@@ -462,9 +451,16 @@ textarea {
   .container-fluid{padding:  0 !important;}
   .carousel-item .para{top: -80px;padding-left: 70px;}  
   .box1{padding-top: 3rem !important;}
-  .carousel-item h2, .box1 h2, .box2 h2, #products h2{font-size: 2.2rem; margin-bottom: 2rem;}
+  .carousel-item h2, .box1 h2, .box2 h2, #products h2,
+  #contactDetails h2,#contactDetails h1{font-size: 2.2rem; margin-bottom: 2rem;}
   .carousel-item h2{margin-bottom: 4rem;}
-  .carousel-item h3, .box1 h5{font-size: 1.4rem;}
-  .services h5, .box1 p, .box1 ol, #products p{font-size: 1rem;}
+  .carousel-item h3, .box1 h5,#contactDetails h5{font-size: 1.4rem;}
+  .services h5, .box1 p, .box1 ol, #products p,
+  #contactDetails p, #contactDetails span{font-size: 1rem;}
   #products .col-sm-12{padding: 0.2rem;}
+
+  /* CONTACT PAGE */
+  .contactus img{height: 55vh;}
+  iframe{height: 300px;}
+  #submit-form .col-sm-12{padding-left: 0;}
 }
