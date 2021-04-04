@@ -333,9 +333,12 @@ padding-top: 12px;
   /* ;;;;;;;;;;;;;;;;;;;; */
   /* MEDIA QUERY */
 @media(max-width:780px) and (min-width:202px) {
-  #navheader, .navbar{text-align: center;}
+  #navHeader, .navbar{text-align: center;}
+  #navHeader img{height: 17px;}
+  #navHeader .icon{padding: 8px 10px;}
+  #navHeader span, #navHeader {font-size: 0.8rem;}
   .hero-img img{
-    padding: 150px 10px 10px 10px;
+    padding: 120px 10px 10px 10px;
     height: 80%;
   }
   .row{margin: auto 0;}
