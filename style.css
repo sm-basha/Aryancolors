@@ -214,7 +214,8 @@ nav.black {
 /* END - box-service */
 
 /* #copy */
-#copy, #no-design{background-color: #F3F6FB;}
+#copy, #no-design,
+#brand-services, .about{background-color: #F3F6FB;}
 
 /* #printing */
 /* .box{
@@ -424,8 +425,114 @@ form {
 }
 
 
+/* SERVICE - PAGE */
+#band{text-align: center; padding: 10rem 0 3rem;}
+.w3-display-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%,-50%);
+  -ms-transform: translate(-0%,-50%);
+}
+.w3-black, .w3-hover-black:hover {
+  color: #fff!important;
+  background-color: #000!important;
+}
+.w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  margin: auto 15px;
+  border-radius: 2rem;
 
+}
+.w3-display-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%,-50%);
+  -ms-transform: translate(0%,-50%);
+}
 
+/* ABOUT PAGE */
+
+/*=====================
+		CIRCLE PROGRESS BAR
+	======================*/
+
+  .progressbar {
+
+    margin: 25px;
+  }
+  
+  .circle {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+  }
+  
+  .circle:after {
+    width: 130px;
+    height: 130px;
+    content: "";
+    /* border: 2px solid #fb4f14; */
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+  }
+  
+  .circle canvas {
+    vertical-align: middle;
+    /* border: 2px solid #fb4f14; */
+    border-radius: 50%;
+  }
+  
+  .circle div {
+    position: absolute;
+    top: 50%;
+    left: 59%;
+    margin: -20px 0 0 -86px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 31px;
+  
+  }
+  
+  .circle strong i {
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: normal;
+  }
+  
+  .circle span {
+    display: block;
+    color: white;
+    margin-top: 12px;
+  }
+   /* END - COUNTER */
+
+/* TEAM */
+#team img{
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid green;
+}
+#team .row{margin: auto 15rem;}
 
 
 /* MEDIA QUERY */
@@ -463,4 +570,5 @@ form {
   .contactus img{height: 55vh;}
   iframe{height: 300px;}
   #submit-form .col-sm-12{padding-left: 0;}
+  .addbox img,.soc img{height: 30px;}
 }
