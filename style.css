@@ -146,6 +146,54 @@ nav.black {
 
 /* end - HERO */
 
+/* BUTTON */
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.button:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #6749C9;
+  border-radius: 10rem;
+  z-index: -2;
+}
+.button:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #008fb3;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.button:hover {
+  color: #fff;
+}
+.button:hover:before {
+  width: 100%;
+}
+
+
+
+/* END - BUTTON */
 
 
 /* SERVICES */
@@ -156,7 +204,7 @@ nav.black {
   background-color: #000;
   color: #fff;
 }
-.services .col-2{padding: 2.4rem 0;
+.services .col-md-2{padding: 2.4rem 0;
   /* margin: 50px auto; */
   text-align: center;
 }
@@ -192,7 +240,7 @@ nav.black {
 
 /* ----------------------------- */
 section {
-  padding: 60px 0;
+  padding: 60px 0 10px;
 }
 
 section .section-title {
@@ -256,36 +304,42 @@ margin-right: 5px;
   font-weight: 700;
 }
 
-@media (max-width:767px){
-#footer h5 {
-  padding-left: 0;
-  border-left: transparent;
-  padding-bottom: 0px;
-  margin-bottom: 10px;
-}
-}
 
-
-
-
-
-
-
-
-
-
-.foot-icon img{height: 30px;padding-top: 0px;}
+.foot-icon img{height: 20px;padding-top: 0px;}
 .foot-icon {
   text-align: center;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
 padding-top: 12px;
   display: inline-block;
-  border: 2px solid #A91813;
+  border: 2px solid #F3F6FB;
   border-radius: 50%;
   margin: 0.3rem;
 }
 .row hr{border-top: 0.2px solid #fff;}
 
 
-/* F3F6FB */
+/* MEDIA QUERY */
+@media (max-width:767px){
+  #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+  }
+
+  
+  /* ;;;;;;;;;;;;;;;;;;;; */
+  /* MEDIA QUERY */
+@media(max-width:780px) and (min-width:202px) {
+  #navheader, .navbar{text-align: center;}
+  .hero-img img{
+    padding: 150px 10px 10px 10px;
+    height: 80%;
+  }
+
+  .carousel-item .para{top: 0;padding-left: 70px;}
+  .carousel-item h2{font-size: 2.2rem; margin-bottom: 4rem;}
+  .carousel-item h3{font-size: 1.4rem;}
+}
