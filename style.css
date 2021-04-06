@@ -537,6 +537,7 @@ form {
 }
 #team .row{margin: auto 15rem;}
 
+
 /* OWL */
 
 #work img {
@@ -548,12 +549,17 @@ form {
 
 .owl-nav {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  margin: 2rem;
 }
 
 .owl-nav span {
-  padding: 0 10px;
-}
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  padding: 5px 1.5rem 8px;
+  margin: 10px;}
 
 .owl-carousel {
   display: none;
@@ -842,6 +848,16 @@ form {
     background-color: #ffffff;
     opacity: .5;
   }
+  .serviceItemBlock .ser-para{
+    position: absolute;
+    font-size: 1rem;
+    font-weight: bolder;
+    top: 80%;
+    left: 12rem;
+    transform: translate(-50%,-50%);
+    color: #000;
+    }
+    #service-icons a{color: #000;}
 
   /* END -TABS */
 
