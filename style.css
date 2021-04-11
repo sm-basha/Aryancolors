@@ -345,7 +345,18 @@ form {
   position: relative;
 }
 .addbox{padding: 0.5rem 0;}
+.contactpara{ 
+  position: absolute;
+    border: solid grey 1px;
+    border-top-right-radius: 25px;
+    padding-right: 50px;
+    padding-left: 20px;
+    bottom: 150px;
+    color: white;
+    background-color: rgba(27, 13, 230, 0.6);
 
+
+}
 .contact-form .input-block {
   background-color: transparent;
   border: none;
