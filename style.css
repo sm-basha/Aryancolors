@@ -43,6 +43,24 @@ a{color: #fff;}
 /* END - navHeader */
 
 /* navbar */
+
+.navbar {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+nav.black {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar a.white {
+  color: #fff;
+  font-weight: 700;
+}
+nav.no-top{top: 0;}
+
 .nav-item {
   padding: 0 2rem;
 }
@@ -58,12 +76,6 @@ a{color: #fff;}
 
 .navbar-toggler-icon {
   background-image: url(images/navbar-toggle.png);
-}
-
-.navbar {
-  z-index: 10;
-  width: 100%;
-  position: absolute;
 }
 
 .dropdown-menu:li {
